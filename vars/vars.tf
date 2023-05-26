@@ -1,7 +1,7 @@
 variable "sample_string" {
   default = "Hello world"
 }
-variable = "sample_number" {
+variable "sample_number" {
  default = 100
 }
 # 10.6 is also a number in terraform
@@ -24,7 +24,7 @@ variable "sample_list" {
 
 #we have a dictionary (or maps) < meaning single variable will have multiple values, & each value s going to have a separate name
 variable "sample_dict" {
-defalt = {
+default = {
 number1 = 100
 string1 + "hello"
 number2 = 123
