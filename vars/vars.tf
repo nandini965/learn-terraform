@@ -14,7 +14,7 @@ variable "sample_boolean" {
 ## we have list variable type , meanig single variable can hold mutiple values
 variable "sample_list" {
         default = [
-        100;
+        100,
         "hello",
         true,
         123
@@ -24,7 +24,7 @@ variable "sample_list" {
 
 #we have a dictionary (or maps) < meaning single variable will have multiple values, & each value s going to have a separate name
 variable "sample_dict" {
-deafalt = {
+defalt = {
 number1 = 100
 string1 + "hello"
 number2 = 123
