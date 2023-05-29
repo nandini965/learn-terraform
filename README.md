@@ -9,4 +9,8 @@
 8. state file
 9. loops
 10. conditions
-11. outputs
+## teraform variable precedence
+1. -var-file
+2. -auto.tfvars
+3. terraform.tfvars
+4. ask in cli to provide input
