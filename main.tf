@@ -1,6 +1,6 @@
 variable "security_group_id" {}
 
-data "aws_security_group" name = "allow all" {
+data "aws_security_group" "allow all" {
   id = "${var.security_group_id}"
 
 output "security_group_id" {
