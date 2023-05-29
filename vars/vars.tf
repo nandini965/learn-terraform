@@ -34,3 +34,4 @@ boolean = true
 ## this is the most preferred variable over the list when we declare the data
 variable "env" {}
 variable "auto_num1" {}
+variable "sample1" {}
