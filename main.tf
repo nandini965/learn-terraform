@@ -1,4 +1,4 @@
-variable "security_group_id" {}
+
 
 data "aws_security_group" "allow all" {
   id = "${var.security_group_id}"
