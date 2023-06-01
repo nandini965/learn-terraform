@@ -19,7 +19,7 @@ data "aws_security_group" "single" {
   id = data.aws_security_groups.test.ids[count.index]
 }
 output "all_sg" {
-  value = "data.aws_security_groups_test"
+  value = "data.aws_security_groups.test"
 }
 output "single" {
   value = "data.aws_security_groups.single"
