@@ -21,3 +21,6 @@ data "aws_security_group" "single" {
 output "all_sg" {
   value = "data.aws_security_groups_test"
 }
+output "single" {
+  value = "data.aws_security_groups.single"
+}
