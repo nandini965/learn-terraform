@@ -3,5 +3,6 @@ variable "sample" {
   default = "abcxyz"
 }
 
-output "sample"{
+output "sample" {
   value = var.sample
+}
