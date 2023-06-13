@@ -4,10 +4,5 @@ variable "sample" {
 }
 
 output "sample" {
-  value = var.sample
-}
-
-
-output "sample"{
   value = upper(var.sample)
 }
