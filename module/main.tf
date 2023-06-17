@@ -23,7 +23,7 @@ provisioner "remote-exec" {
     "rm -rf roboshop-shell",
     "git clone https://github.com/nandini965/roboshop-shell.git",
     "cd roboshop-shell",
-    "sudo bash "component_name.sh","${var.password}","null")}"
+    "sudo bash "${component_name}.sh", "${var.password}", "null")}"
   ]
 }
 }
