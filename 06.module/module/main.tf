@@ -5,14 +5,3 @@ resource "null_resource" "nothing" {
 }
 variable "input" {}
 
-resource "null_resource" "nothing2" {
-  provisioner "local-exec" {
-    command = "echo hello from module"
-  }
-}
-
-resource "null_resource" "nothing3" {
-  provisioner "local-exec" {
-    command = "echo hello from module"
-  }
-}
